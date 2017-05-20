@@ -1,0 +1,22 @@
+{
+  "name": "kbob",
+  "version": "1.0.0",
+  "description": "Discord's bot for learning and creative",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khafang/kbob.git"
+  },
+  "author": "Jinnawat Lochaiyakul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khafang/kbob/issues"
+  },
+  "homepage": "https://github.com/Khafang/kbob#readme",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
