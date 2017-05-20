@@ -2,8 +2,16 @@ const Discord = require('discord.js'); //เรียก discord.js มาใช
 const kbob = new Discord.Client(); //ประกาศ client ขึ้นมา
 const img = 'https://i.ytimg.com/vi/eYEwcnocpOk/maxresdefault.jpg'
 var http = require('http');
+var express = require('express')
+var app = express()
 var i = 0
 //event นี้ทำงานเมื่อ login สำเร็จ
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.listen(3000)
+
 kbob.on('ready', () => {
   console.log('kbob online');
 })

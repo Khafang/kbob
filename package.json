@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Khafang/kbob#readme",
   "dependencies": {
-    "discord.js": "^11.1.0"
+    "discord.js": "^11.1.0",
+    "express": "^4.15.3"
   }
 }
