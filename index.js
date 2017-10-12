@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 app.listen(3000)
 
 kbob.on('ready', () => {
-  console.log('kbob online');
+  console.log('kbob ready to actived');
 })
 
 //รอรับ event message เวลามีข้อความโผล่มาในแชท function นี้ก็จะทำงาน
